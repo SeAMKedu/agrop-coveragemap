@@ -1,11 +1,12 @@
 import argparse
+import geopandas as gpd
 import json
 import logging
+import osm2geojson
+
 from decimal import Decimal
 from functools import partial
 from urllib.request import urlopen
-import osm2geojson
-import geopandas as gpd
 
 OVERPASS_URL = "http://overpass-api.de/api/interpreter"
 
