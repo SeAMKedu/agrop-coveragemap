@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basestations</title>
+    <link rel="stylesheet" href="./basestations.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 100%;"></div>
+    <script>
+        const region_file = "../regions/region.geojson";
+        //const region_file = null;
+        const station_file = "../stations/stations_ep.json";
+    </script>
+    <script src="./map.js"></script>
+</body>
+</html>
