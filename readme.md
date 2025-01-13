@@ -6,6 +6,8 @@
 
 ![agrop_logo]
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14637318.svg)](https://doi.org/10.5281/zenodo.14637318)
+
 # Tukiasemien peitto kartalla
 
 Koska hankkeessa koottiin uusia tukiasemia hyvä määrä, kiinnostaa tietenkin tietää minkälaisen kattavuuden RTK korjaussignaalille niillä saatiin. Tässä repositoryssä on muutama python scripti, joilla voi kerätä datan webbisivua varten, joka visualisoi asemien sijainnit sekä piirtää niiden ympärille 40km halkaisijaltaan olevan ympyrän ja erottelee eri casterit väreillä toisistaan.
